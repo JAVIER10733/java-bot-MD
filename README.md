@@ -1,13 +1,13 @@
 
-<h1 align="center">ðŸ¤– JavaBot-MD</h1>
+<h1 align="center">🤖 JavaBot-MD</h1>
 
 <p align="center">
-  <img src="https://i.ibb.co/Gcgj9dH/whatsapp-bot.gif" width="400" alt="Bot WhatsApp" />
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUr6yPjuRueTqK4DQZDOMlKybWtmuIgWNZ9w&s" width="400" alt="Bot WhatsApp" />
 </p>
 
 <p align="center">
   Bot de WhatsApp Multi-Dispositivo usando <a href="https://github.com/WhiskeySockets/Baileys">Baileys</a>.<br>
-  Modular âš™ï¸ | RÃ¡pido âš¡ | Personalizable ðŸŽ¨ | Listo para usar ðŸŸ¢
+  Modular ⚙️ | Rápido ⚡ | Personalizable 🎨 | Listo para usar 🟢
 </p>
 
 <p align="center">
@@ -18,14 +18,14 @@
 
 ---
 
-## ðŸ“¦ Requisitos
+## 📦 Requisitos
 
-### ðŸ’» En PC
+### 💻 En PC
 - Node.js v18 o superior
 - ffmpeg instalado
 - Git (opcional)
 
-### ðŸ“± En Termux
+### 📱 En Termux
 ```bash
 pkg update && pkg upgrade -y
 pkg install nodejs git ffmpeg -y
@@ -33,32 +33,32 @@ pkg install nodejs git ffmpeg -y
 
 ---
 
-## ðŸš€ InstalaciÃ³n
+## 🚀 Instalación
 
-### ðŸ” Clona el repositorio
+### 🔁 Clona el repositorio
 ```bash
 git clone https://github.com/tu_usuario/java-bot-md.git
 cd java-bot-md
 ```
 
-### ðŸ“ O descarga el ZIP
-[ðŸ“¦ Descargar ZIP](https://github.com/tu_usuario/java-bot-md/archive/refs/heads/main.zip)
+### 📁 O descarga el ZIP
+[📦 Descargar ZIP](https://github.com/tu_usuario/java-bot-md/archive/refs/heads/main.zip)
 
 ---
 
-### ðŸ“¥ Instala las dependencias
+### 📥 Instala las dependencias
 ```bash
 npm install
 ```
 
 ---
 
-### âš™ï¸ ConfiguraciÃ³n
+### ⚙️ Configuración
 
 Edita el archivo `config.js`:
 ```js
 module.exports = {
-  owner: ['593XXXXXXXXX'], // Tu nÃºmero con cÃ³digo de paÃ­s
+  owner: ['593XXXXXXXXX'], // Tu número con código de país
   botName: 'JavaBot-MD',
   autoRead: true,
   prefix: ['/', '!', '.'],
@@ -74,74 +74,74 @@ OWNER_NUMBER=593XXXXXXXXX
 
 ---
 
-### â–¶ï¸ Ejecuta el bot
+### ▶️ Ejecuta el bot
 ```bash
 npm start
 ```
 
-Escanea el cÃ³digo QR que aparece en la consola.
+Escanea el código QR que aparece en la consola.
 
 ---
 
-## ðŸ“‚ Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
 ```bash
 java-bot-md/
-â”œâ”€â”€ index.js           # Archivo principal
-â”œâ”€â”€ config.js          # ConfiguraciÃ³n del bot
-â”œâ”€â”€ .env               # Claves API y secreto
-â”œâ”€â”€ package.json       # Dependencias y scripts
-â”‚
-â”œâ”€â”€ /session           # Archivos de sesiÃ³n de WhatsApp
-â”œâ”€â”€ /plugins           # Comandos del bot
-â”‚   â”œâ”€â”€ menu.js
-â”‚   â”œâ”€â”€ sticker.js
-â”‚   â”œâ”€â”€ play.js
-â”‚   â”œâ”€â”€ group.js
-â”‚   â”œâ”€â”€ info.js
-â”‚   â””â”€â”€ owner.js
-â”‚
-â”œâ”€â”€ /lib               # LibrerÃ­as de conexiÃ³n
-â”‚   â”œâ”€â”€ baileys.js
-â”‚   â””â”€â”€ utils.js
-â”‚
-â”œâ”€â”€ /media             # ImÃ¡genes, audios, stickers
-â””â”€â”€ /database          # Datos de usuarios y grupos
+├── index.js           # Archivo principal
+├── config.js          # Configuración del bot
+├── .env               # Claves API y secreto
+├── package.json       # Dependencias y scripts
+│
+├── /session           # Archivos de sesión de WhatsApp
+├── /plugins           # Comandos del bot
+│   ├── menu.js
+│   ├── sticker.js
+│   ├── play.js
+│   ├── group.js
+│   ├── info.js
+│   └── owner.js
+│
+├── /lib               # Librerías de conexión
+│   ├── baileys.js
+│   └── utils.js
+│
+├── /media             # Imágenes, audios, stickers
+└── /database          # Datos de usuarios y grupos
 ```
 
 ---
 
-## ðŸ§© Comandos Disponibles
+## 🧩 Comandos Disponibles
 
-| Comando        | DescripciÃ³n                          |
+| Comando        | Descripción                          |
 |----------------|--------------------------------------|
-| `/menu`        | Muestra el menÃº principal            |
+| `/menu`        | Muestra el menú principal            |
 | `/sticker`     | Convierte imagen/video a sticker     |
-| `/play <query>`| Descarga mÃºsica de YouTube           |
+| `/play <query>`| Descarga música de YouTube           |
 | `/add`         | Agrega miembro al grupo (admin)      |
 | `/kick`        | Elimina miembro del grupo (admin)    |
-| `/info`        | InformaciÃ³n del bot                  |
-| `/owner`       | InformaciÃ³n del creador              |
+| `/info`        | Información del bot                  |
+| `/owner`       | Información del creador              |
 
 ---
 
-## ðŸ–¼ï¸ Vista previa
+## 🖼️ Vista previa
 
 <p align="center">
-  <img src="https://i.ibb.co/YZBjHy3/demo-menu.png" width="300" alt="MenÃº del bot" />
+  <img src="https://i.ibb.co/YZBjHy3/demo-menu.png" width="300" alt="Menú del bot" />
   <img src="https://i.ibb.co/KjF2J6K/demo-chat.png" width="300" alt="Chat con el bot" />
 </p>
 
 ---
 
-## ðŸ‘¤ CrÃ©ditos
+## 👤 Créditos
 
-- ðŸ“š Basado en [Baileys](https://github.com/WhiskeySockets/Baileys)
-- ðŸ§  Idea original y ediciÃ³n: [TuNombre](https://github.com/tu_usuario)
-- ðŸ’™ Agradecimientos a toda la comunidad de desarrollo
+- 📚 Basado en [Baileys](https://github.com/WhiskeySockets/Baileys)
+- 🧠 Idea original y edición: [TuNombre](https://github.com/tu_usuario)
+- 💙 Agradecimientos a toda la comunidad de desarrollo
 
 ---
 
-## ðŸ“„ Licencia
+## 📄 Licencia
 
-Este proyecto estÃ¡ licenciado bajo MIT. Consulta el archivo [`LICENSE`](./LICENSE) para mÃ¡s detalles.
+Este proyecto está licenciado bajo MIT. Consulta el archivo [`LICENSE`](./LICENSE) para más detalles.

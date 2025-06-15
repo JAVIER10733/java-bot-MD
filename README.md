@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/github/license/tu_usuario/java-bot-md?style=flat-square" /></a>
+  <a href="#"><img src="https://img.shields.io/github/license/JAVIER10733/java-bot-md?style=flat-square" /></a>
   <a href="#"><img src="https://img.shields.io/github/stars/JAVIER10733/java-bot-md?style=flat-square" /></a>
   <a href="#"><img src="https://img.shields.io/github/forks/tu_usuario/java-bot-md?style=flat-square" /></a>
 </p>

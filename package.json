@@ -1,0 +1,17 @@
+
+{
+  "name": "java-bot-md",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.0.0",
+    "chalk": "^5.2.0",
+    "cfonts": "^2.10.0",
+    "moment": "^2.29.4",
+    "node-fetch": "^3.3.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}

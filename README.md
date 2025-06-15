@@ -23,7 +23,7 @@ Un bot de WhatsApp multi-dispositivo creado con [Baileys](https://github.com/Whi
 
 ### 1. Clonar o descargar el proyecto
 ```bash
-git clone https://github.com/tu_usuario/java-bot-md.git
+git clone https://github.com/JAVIER10733/java-bot-md.git
 cd java-bot-md
 ```
 O descomprime el archivo `.zip` que descargaste aquí y entra a la carpeta.
